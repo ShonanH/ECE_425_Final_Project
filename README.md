@@ -15,34 +15,33 @@ The project demonstrates the feasibility of basic computer vision on a low-power
 
 ### Hardware & Software Components
 
-Tiva C Series TM4C123G LaunchPad - 1 (Texas Instruments)
-USB-A to Micro-USB Cabl - 1
-EduBase Board - 1 (Trainer4Edu)
+- Tiva C Series TM4C123G LaunchPad - 1 (Texas Instruments)
+- USB-A to Micro-USB Cabl - 1
+- EduBase Board - 1 (Trainer4Edu)
 
 ### Peripherals Used:
 
-SysTick (millisecond delays)
-General-Purpose Timer Module (Timer1) for precise inter-byte timing
-UART0 (serial data transfer)
-GPIO Port A (PA0, PA1 for UART RX/TX)
+- SysTick (millisecond delays)
+- UART0 (serial data transfer)
+- GPIO Port A (PA0, PA1 for UART RX/TX)
 
 ### Software Libraries & Tools:
 
-Keil µVision 5 IDE
-Python script to convert an image into 64x64 grayscale image png
-TeraTerm to log binary bytes of processed image from the Sobel algorithm
-MATLAB to reconstruct binary image from TeraTerm binary file
+- Keil µVision 5 IDE
+- Python script to convert an image into 64x64 grayscale image png
+- TeraTerm to log binary bytes of processed image from the Sobel algorithm
+- MATLAB to reconstruct binary image from TeraTerm binary file
 
 ### Components Used
 
-UART0 - Image input/output via serial communication
-GPIO Port A - UART TX/RX pins (PA0, PA1)
-SysTick- Timing performance/Generating Delays
+- UART0 - Image input/output via serial communication
+- GPIO Port A - UART TX/RX pins (PA0, PA1)
+- SysTick- Timing performance/Generating Delays
 
 ### Pinout Used
 
-UART0 (RX) - PA0 -- GPIOA, (Pin 0 UART receiver)
-UART0 (TX) - PA1 -- GPIOA, (Pin 1 UART transmitter)
+- UART0 (RX) - PA0 -- GPIOA, (Pin 0 UART receiver)
+- UART0 (TX) - PA1 -- GPIOA, (Pin 1 UART transmitter)
 
 ## Block Diagram
 
